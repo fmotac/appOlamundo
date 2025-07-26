@@ -1,9 +1,21 @@
 {
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-   "scripts": {
+  "name": "meu-app-ola-mundo",
+  "version": "1.0.0",
+  "description": "Uma aplicação 'Olá Mundo' simples com Express para o Azure.",
+  "main": "app.js",
+  "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "azure",
+    "hello-world"
+  ],
+  "author": "Seu Nome <seu.email@exemplo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
