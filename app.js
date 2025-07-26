@@ -6,7 +6,7 @@ const app = express();
 
 // Define a porta em que o servidor irá escutar
 const port = 3000;
-nod
+
 // Define uma rota GET para a URL raiz ("/")
 // Quando alguém acessa esta rota, a função de callback é executada
 app.get('/', (req, res) => {
